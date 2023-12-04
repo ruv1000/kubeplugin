@@ -8,18 +8,18 @@ This plugin retrieves resource usage statistics for a specific resource type in 
 2. Download the script:
 
    ```zsh
-   wget https://raw.githubusercontent.com/your-repository/resource-usage-plugin/main/scripts/kubeplugin #TODO:
+   wget https://raw.githubusercontent.com/ruv1000/kubeplugin/main/scripts/kubeplugin
    ```
 
 3. Make the script executable:
 
    ```zsh
-   chmod +x scripts/kubeplugin #TODO:
+   chmod +x scripts/kubeplugin
    ```
 
 4. Place it anywhere in your `PATH`
    ```zsh
-   sudo mv ./kubectl-foo /usr/local/bin #TODO:
+   sudo mv ./scripts/kubeplugin /usr/local/bin/kubectl-kubeplugin
    ```
 
 ## Usage
